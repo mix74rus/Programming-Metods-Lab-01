@@ -1,0 +1,41 @@
+10
+Sofia Lee
+PHYSICS
+Office_manager
+40
+Samantha Smith
+BIOLOGY
+Sales_person
+26
+Addison Campbell
+BIOLOGY
+PC_operator
+50
+Henry Moore
+CHEMISTRY
+Commercial
+79
+Dylan Collins
+ENGINEERING
+PC_operator
+80
+Leah Green
+MATHEMATICS
+Accountant
+22
+Samuel Hall
+COMPUTER_SCIENCE
+PC_operator
+71
+Addison Miller
+PHYSICS
+Sales_Manager
+43
+Mia Young
+BIOLOGY
+Sales_person
+44
+Hannah Lopez
+COMPUTER_SCIENCE
+Office_manager
+57
