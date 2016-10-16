@@ -6,6 +6,7 @@
 
 
 int main() {
+    /** Создание переменных */
     int n = 100;
     int size = 0;
     Generator g;
@@ -15,8 +16,10 @@ int main() {
     std::vector<Student> students1;
     std::vector<Student> students2;
 
+    /** Генерация данных в файле */
     g.generate(n, file);
 
+    /** Чтение данных из файла */
     in.seekg(0);
     in >> size;
     for (int i = 0; (i < size) && in; i++) {
@@ -29,6 +32,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
+    /** Вывод результируюцих данных вместе с вызовом сортировок в методе measureTime */
     std::cout << "SelectSort: "
               << util::measureTime(alg::SelectSort<Student>,students1)
               << "\n"
